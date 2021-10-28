@@ -19,3 +19,7 @@ This is just a pretty basic cryptocurrency portfolio tracker I made using the Wa
 - I'm using the JSON library to load the content from the request into a JSON format. 
 - For viewing my portfolio I'm just using a pandas dataframe and using red/green colors to differentiate between proditable and non-proditable investments. 
 - I've also put in a pie chart using the Matplotlib library just to visualize your investments across various coins. 
+
+## How it Looks?
+- So it looks something like this, once you've put in details related to your investments. Although my investments from the screenshot are not financial advice and crypto is really volatile and risky. So proceed with caution. 
+![Crypto-Screenshot](https://github.com/bharathbabu68/Simple-Cryptocurrency-Portfolio-Tracker/blob/main/images/random_crypto.png)
