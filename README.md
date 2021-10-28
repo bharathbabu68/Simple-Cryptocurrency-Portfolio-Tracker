@@ -14,6 +14,7 @@ This is just a pretty basic cryptocurrency portfolio tracker I made using the Wa
 - And that's it, you're good to go. 
 
 ## What I used to make this?
+- Language: Python
 - I used the request library in Python to send a get request to the WazirX api site, which returns the data in the form of a JSON file. 
 - I'm then storing the JSON indexes of whatever crypto I own, so that we don't need to fetch the details for each crypto one by one, you just fetch the entire thing and you can use the indexes to access all your cryptos. 
 - I'm using the JSON library to load the content from the request into a JSON format. 
