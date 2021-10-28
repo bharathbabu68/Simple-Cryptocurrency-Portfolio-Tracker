@@ -1,5 +1,5 @@
 # Simple-Cryptocurrency-Portfolio-Tracker
-This is just a pretty basic cryptocurrency portfolio tracker I made using the WazirX API using Python to track the status of cryptocurrency investments. The reason I made this was cause WazirX didn't provide a way to track the status of each coin that I owned, and didn't show individual details like profit amount, profit %, invested amount, but only showed the current value of the entire portfolio which made it really difficult to keep track of. 
+This is just a pretty basic cryptocurrency portfolio tracker I made using the WazirX API using Python to track the status of cryptocurrency investments. The reason I made this was cause WazirX didn't provide a way to track the status of each coin that was owned, and didn't show individual details like profit amount, profit %, invested amount, but only showed the current value of the entire portfolio which made it really difficult to keep track of. 
 
 ## What do you get?
 - You get to track the status of each coin you invested in, showing details such as prodit amount, profit %, invested amount and the current value of your investment. 
@@ -20,5 +20,5 @@ This is just a pretty basic cryptocurrency portfolio tracker I made using the Wa
 - For viewing my portfolio I'm just using a pandas dataframe and using red/green colors to differentiate between proditable and non-proditable investments. 
 
 ## How it Looks?
-- So it looks something like this, once you've put in details related to your investments. Although my investments from the screenshot are not financial advice and crypto is really volatile and risky. So proceed with caution. 
+- So it looks something like this, once you've put in details related to your investments. Although the investments from the screenshot are not financial advice and crypto is really volatile and risky. So proceed with caution. 
 ![Crypto-Screenshot](https://github.com/bharathbabu68/Simple-Cryptocurrency-Portfolio-Tracker/blob/main/images/random_crypto.png)
