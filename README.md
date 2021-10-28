@@ -12,3 +12,10 @@ This is just a pretty basic cryptocurrency portfolio tracker I made using the Wa
 - Next you add the crypto whose price you want to track to the cryptos list, which just holds the names of all cryptocurrencies that you own. 
 - Correspondigly, you enter the price at which you bought the crypto onto the bought_prices list followed byt the quantity you bought onto the bought_qty list. 
 - And that's it, you're good to go. 
+
+## What I used to make this?
+- I used the request library in Python to send a get request to the WazirX api site, which returns the data in the form of a JSON file. 
+- I'm then storing the JSON indexes of whatever crypto I own, so that we don't need to fetch the details for each crypto one by one, you just fetch the entire thing and you can use the indexes to access all your cryptos. 
+- I'm using the JSON library to load the content from the request into a JSON format. 
+- For viewing my portfolio I'm just using a pandas dataframe and using red/green colors to differentiate between proditable and non-proditable investments. 
+- I've also put in a pie chart using the Matplotlib library just to visualize your investments across various coins. 
